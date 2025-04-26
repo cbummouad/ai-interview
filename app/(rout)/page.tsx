@@ -33,7 +33,7 @@ const page = () => {
         </section>
         <section className='flex flex-col gap-6 mt-8'>
           <h2>take an interview</h2>
-          <div>
+          <div className='interviews-section'>
             {dummyInterviews.map((interview)=>(
               <InterviewCard {...interview} key={interview.id}/>
             ))}
